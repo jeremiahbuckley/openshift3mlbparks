@@ -117,12 +117,165 @@
     }
   ]
 }{
+"name": "Braves_old",
+"payroll": 85000000,
+"ballpark":"Turner Field",
+"destroyed": true,
+"coordinates":[
+-84.38839,
+33.734708
+],
+"city": "Atlanta",
+"league": "National League",
+"year": "2013",
+"name": "Braves",
+"players":[
+{
+"name": "Dan Uggla",
+"position": "Second Base",
+"salary": 13146942
+}
+,
+{
+"name": "B.J. Upton",
+"position": "Center Field",
+"salary": 1300000
+}
+,
+{
+"name": "Brian McCann",
+"position": "Catcher",
+"salary": 11500000
+},
+{
+"name": "Justin Upton",
+"position": "Right Field",
+"salary": 9958333
+}
+,
+{
+"name": "Tim Hudson",
+"position": "Starting Pitcher",
+"salary": 9000000
+}
+,
+{
+"name": "Paul Maholm",
+"position": "Starting Pitcher",
+"salary": 6250000
+}
+,
+{
+"name": "Eric O'Flaherty",
+"position": "",
+"salary": 2490000
+}
+,
+{
+"name": "Reed Johnson",
+"position": "",
+"salary": 1150000
+},
+{
+"name": "Gerald Laird",
+"position": "",
+"salary": 1000000
+}
+,
+{
+"name": "Craig Kimbrel",
+"position": "",
+"salary": 590000
+}
+,
+{
+"name": "Jason Heyward",
+"position": "",
+"salary": 565000
+}
+,
+{
+"name": "Freddie Freeman",
+"position": "",
+"salary": 535000
+}
+,
+{
+"name": "Jonny Venters",
+"position": "",
+"salary": 533000
+},
+{
+"name": "Jordan Walden",
+"position": "",
+"salary": 495000
+}
+,
+{
+"name": "Chris Johnson",
+"position": "",
+"salary": 495000
+}
+,
+{
+"name": "Brandon Beachy",
+"position": "",
+"salary": 495000
+}
+,
+{
+"name": "Cristhian Martinez",
+"position": "",
+"salary": 491250
+}
+,
+{
+"name": "Kris Medlen",
+"position": "",
+"salary": 490000
+},
+{
+"name": "Jordan Schafer",
+"position": "",
+"salary": 489000
+}
+,
+{
+"name": "David Carpenter",
+"position": "",
+"salary": 485000
+}
+,
+{
+"name": "Mike Minor",
+"position": "",
+"salary": 482500
+}
+,
+{
+"name": "Anthony Varvaro",
+"position": "",
+"salary": 481250
+}
+,
+{
+"name": "Juan Francisco",
+"position": "",
+"salary": 480000
+},
+{
+"name": "Tyler Pastornicky",
+"position": "",
+"salary": 480000
+}
+]
+}{
 "name": "Braves",
 "payroll": 85000000,
 "ballpark":"Turner Field",
 "coordinates":[
--84.38839,
-33.734708
+-84.4677285,
+33.8907854  
 ],
 "city": "Atlanta",
 "league": "National League",
