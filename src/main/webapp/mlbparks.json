@@ -272,10 +272,10 @@
 }{
 "name": "Braves",
 "payroll": 85000000,
-"ballpark":"Turner Field",
+"ballpark":"Sun Trust Park",
 "coordinates":[
--84.4677285,
-33.8907854  
+-84.4884785,
+33.8941088  
 ],
 "city": "Atlanta",
 "league": "National League",
