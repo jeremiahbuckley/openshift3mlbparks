@@ -120,7 +120,7 @@
 "name": "Braves_old",
 "payroll": 85000000,
 "ballpark":"Turner Field",
-"destroyed": true,
+"destroyed": "true",
 "coordinates":[
 -84.38839,
 33.734708
