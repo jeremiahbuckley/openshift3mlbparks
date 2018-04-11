@@ -61,7 +61,7 @@ public class MLBPark {
 		return destroyed;
 	}
 
-	public void setDestroyed(Object league) {
+	public void setDestroyed(Object destroyed) {
 		return destroyed;
 	}
 
