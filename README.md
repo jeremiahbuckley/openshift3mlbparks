@@ -12,7 +12,7 @@ $ oc new-project mlbparks
 ````
 If your environment (all-in-one) has Wildfly, use this:
 `````
-$ oc create -f https://raw.githubusercontent.com/gshipley/openshift3mlbparks/master/mlbparks-template-wildfly.json
+$ oc create -f https://github.com/jeremiahbuckley/openshift3mlbparks/master/mlbparks-template-wildfly.json
 $ oc new-app mlbparks-wildfly
 `````
 If your environment (Online 3, Dedicated, OSE) has EAP, use this:
@@ -25,6 +25,6 @@ $ oc new-app mlbparks-eap
 Load the template with cluster-admin user:
 
 ````
-# oc create -f https://raw.githubusercontent.com/gshipley/openshift3mlbparks/master/mlbparks-template-wildfly.json -n openshift
+# oc create -f https://github.com/jeremiahbuckley/openshift3mlbparks/master/mlbparks-template-wildfly.json -n openshift
 ````
 
