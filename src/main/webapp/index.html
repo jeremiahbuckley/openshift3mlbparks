@@ -58,8 +58,16 @@
 			//clear the current pins
 			map.removeLayer(markerLayerGroup);
 
-			var redIcon = L.icon({
+			var blueIcon = L.icon({
 				iconUrl: 'images/azure_pin.png',
+
+				iconSize:     [38, 95], // size of the icon
+				iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
+				popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+			});
+			
+			var pinkIcon = L.icon({
+				iconUrl: 'images/pink_pin.png',
 
 				iconSize:     [38, 95], // size of the icon
 				iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
@@ -69,11 +77,15 @@
 			//add the new pins
 			var markerArray = new Array(data.length)
 			for (var i = 0; i < data.length; i++){
+				var pinIcon = blueIcon;
+				if (park.destroyed) {
+					pinIcon = pinkIcon;
+				}
 				park = data[i];
 				var popupInformation = "<b>" + park.name + "</b></br>" + park.ballpark + "</br>";
 				popupInformation += "<b>Team Payroll: </b>" + park.payroll.toCurrencyString() + "</br>";
 				popupInformation += "<b>League: </b>" + park.league + "</br>";
-				markerArray[i] = L.marker([park.position[1], park.position[0]], {icon: redIcon}).bindPopup(popupInformation);			
+				markerArray[i] = L.marker([park.position[1], park.position[0]], {icon: pinIcon}).bindPopup(popupInformation);			
 			}
 			
     		

@@ -32,6 +32,7 @@ public class MLBParkResource {
 		thePark.setBallpark(dataValue.get("ballpark"));
 		thePark.setLeague(dataValue.get("league"));
 		thePark.setPayroll(dataValue.get("payroll"));
+		thePark.setDestroyed(dataValue.get("destroyed"));
 
 		return thePark;
 	}
