@@ -62,7 +62,7 @@ public class MLBPark {
 	}
 
 	public void setDestroyed(Object destroyed) {
-		return destroyed;
+		this.destroyed = destroyed;
 	}
 
 }
